@@ -1,3 +1,5 @@
+#include <stdio.h>
+//C program
 bool isPalindrome(int x){
     long int rem,res=0,temp;
     temp = x;
