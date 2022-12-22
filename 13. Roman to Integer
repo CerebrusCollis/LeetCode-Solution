@@ -1,3 +1,5 @@
+#include <stdio.h>
+// C Program
 int r2i(char s){
     switch(s){
         case 'I':
@@ -33,5 +35,9 @@ int romanToInt(char *s){
     }
     return out;    
 }
-
+int main(){
+    char *input;
+    scanf("%d",imput);
+    romanToInt(input);
+}
 // By Rama Subramanian T
